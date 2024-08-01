@@ -6,15 +6,19 @@ import TimerWrapper from './TimerWrapper'
 import Counter from './Counter'
 import ProfileViewer from './ProfileViewer'
 import ProfileViewerWithSearch from './ProfileViewerWithSearch'
+import Video from './Video';
+import Focuser from './Focuser'
 
 function App() {
 
   return (
     <div className="App">
-      <TimerWrapper />
-      {/* <Counter /> */}
+      {/* <TimerWrapper />
+      <Counter />
       <ProfileViewer name="colt"/>
-      <ProfileViewerWithSearch /> 
+      <ProfileViewerWithSearch />  */}
+      <Video />
+      <Focuser />
     </div>
   )
 }
