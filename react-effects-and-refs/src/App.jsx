@@ -8,6 +8,7 @@ import ProfileViewer from './ProfileViewer'
 import ProfileViewerWithSearch from './ProfileViewerWithSearch'
 import Video from './Video';
 import Focuser from './Focuser'
+import Timer2 from './Timer2'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
       <ProfileViewerWithSearch />  */}
       <Video />
       <Focuser />
+      <Timer2 />
     </div>
   )
 }
