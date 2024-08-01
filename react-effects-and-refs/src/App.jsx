@@ -4,14 +4,17 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Timer from './Timer'
 import Counter from './Counter'
+import ProfileViewer from './ProfileViewer'
+import ProfileViewerWithSearch from './ProfileViewerWithSearch'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div className="App">
-      <Timer />
-      <Counter />
+      {/* <Timer />
+      <Counter /> */}
+      <ProfileViewer name="colt"/>
+      <ProfileViewerWithSearch /> 
     </div>
   )
 }
